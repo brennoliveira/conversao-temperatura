@@ -35,5 +35,5 @@ jobs:
           file: src/Dockerfile
           push: true
           tags: |
-            brennoliveira/aula-conversao-temperatura:v1
+            brennoliveira/aula-conversao-temperatura:${{github.run_number}}
             brennoliveira/aula-conversao-temperatura:latest
